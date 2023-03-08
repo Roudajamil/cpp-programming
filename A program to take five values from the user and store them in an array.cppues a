@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int Arr[5];
+	for(int i=0;i<5;i++){
+		cout<<"Enter number:";
+		cin>>Arr[i];
+	}
+	cout<<"\nYour Numbers are...\n";
+	for(int i=0;i<5;i++){
+		cout<<Arr[i]<<endl;
+	}
+	return 0;
+}
